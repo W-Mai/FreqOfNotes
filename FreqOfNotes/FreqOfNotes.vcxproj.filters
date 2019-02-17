@@ -18,9 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="XNotes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h">
+    <ClInclude Include="XNotes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XMainHeader.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

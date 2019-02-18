@@ -1,6 +1,15 @@
 #pragma once
 #include "XMainHeader.h"
 
+typedef double Freq;
+typedef int    Major;
+
+typedef struct Notes {
+	char  name[3];
+	Major major;
+} Notes;
+
+
 class XNotes {
 private:
 	Freq BASE = 440.00;  // A4

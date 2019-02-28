@@ -141,9 +141,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Notes.cpp" />
     <ClCompile Include="XNotes.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Notes.h" />
     <ClInclude Include="XMainHeader.h" />
     <ClInclude Include="XNotes.h" />
   </ItemGroup>

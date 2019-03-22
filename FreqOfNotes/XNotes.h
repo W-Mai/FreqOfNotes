@@ -10,6 +10,7 @@ typedef struct Notes {
 } Notes;
 
 
+
 class XNotesManager {
 private:
 	Freq BASE = 440.00;  // A4

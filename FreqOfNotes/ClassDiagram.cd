@@ -3,15 +3,8 @@
   <Class Name="Notes">
     <Position X="4.25" Y="1.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAgACAAAAAAAAAAAAAgAAAAAAAAAAAQAAAkAAIAAAA=</HashCode>
+      <HashCode>AAAgACAAAIAAAAAAAAIgAAAAAAAAAAAQAAAkAAKAAAA=</HashCode>
       <FileName>Notes.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="XNotesManager">
-    <Position X="1.75" Y="1.75" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAEEAACAAAAAAwAAAIMAAA=</HashCode>
-      <FileName>XNotes.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Microsoft YaHei UI" Size="9" />

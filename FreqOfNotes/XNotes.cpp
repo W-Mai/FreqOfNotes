@@ -2,12 +2,12 @@
 
 
 
-XNotes::XNotes(const Freq baseFreq) {
+XNotesManager::XNotesManager(const Freq baseFreq) {
 	BASE = baseFreq;
 }
 
-XNotes::~XNotes() {}
-Freq XNotes::getFreq_rela(const int notes) {
+XNotesManager::~XNotesManager() {}
+Freq XNotesManager::getFreq_rela(const int notes) {
 	int tempNote = abs(notes);
 	double rtnFreq = BASE;
 	for (size_t i = 0; i < tempNote; i++) {
@@ -17,11 +17,11 @@ Freq XNotes::getFreq_rela(const int notes) {
 }
 
 
-int XNotes::getDeltaNoteDis(int note, int stage) {
+int XNotesManager::getDeltaNoteDis(int note, int stage) {
 	return 12 * stage + note - 48; // 12 * (stage - 4) + (note - 9)
 }
 
-int *XNotes::analyseNote(const char * notes) {
+int *XNotesManager::analyseNote(const char * notes) {
 	char N = tolower(notes[0]), P = tolower(notes[1]);
 	int * rtn = new int[2];
 	if (isalpha(notes[0]) && 'a' <= N && N <= 'g') {

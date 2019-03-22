@@ -2,7 +2,7 @@
 
 #include <Windows.h>
 
-XNotes Notes;
+XNotesManager Notes;
 
 int main() {
 	char notes[100];

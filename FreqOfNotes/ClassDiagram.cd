@@ -7,10 +7,10 @@
       <FileName>Notes.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="XNotes">
+  <Class Name="XNotesManager">
     <Position X="1.75" Y="1.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AIAAAAAAAAAAAAEAABAAAAAEEAAAAAAAAAwAAAAMAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAEEAACAAAAAAwAAAIMAAA=</HashCode>
       <FileName>XNotes.h</FileName>
     </TypeIdentifier>
   </Class>

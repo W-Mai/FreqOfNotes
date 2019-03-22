@@ -10,7 +10,7 @@ typedef struct Notes {
 } Notes;
 
 
-class XNotes {
+class XNotesManager {
 private:
 	Freq BASE = 440.00;  // A4
 	const double DEGREE = 1.0594630943592953;
@@ -23,7 +23,7 @@ public:
 	int * analyseNote(const char * notes);
 	Major getNotes(const Freq freq);
 	Freq getFreq_rela(const int notes);
-	XNotes(const Freq baseFreq = 440.00);
-	~XNotes();
+	XNotesManager(const Freq baseFreq = 440.00);
+	~XNotesManager();
 };
 
